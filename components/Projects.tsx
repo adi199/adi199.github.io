@@ -17,8 +17,8 @@ const Projects: React.FC = () => (
             <div className="flex justify-between items-center mb-2">
               <h4 className="font-bold">{proj.title}</h4>
               <div className="flex gap-2 text-gray-400">
-                <span className="material-symbols-outlined text-lg cursor-pointer hover:text-white transition-colors">code</span>
-                <span className="material-symbols-outlined text-lg cursor-pointer hover:text-white transition-colors">open_in_new</span>
+                {proj.githubUrl && <a href={proj.githubUrl} className="material-symbols-outlined text-lg cursor-pointer hover:text-white transition-colors">code</a>}
+                {proj.liveUrl && <a href={proj.liveUrl} className="material-symbols-outlined text-lg cursor-pointer hover:text-white transition-colors">open_in_new</a>}
               </div>
             </div>
             <p className="text-xs text-gray-400 mb-4 leading-relaxed">{proj.description}</p>
@@ -30,11 +30,6 @@ const Projects: React.FC = () => (
           </div>
         </div>
       ))}
-    </div>
-    <div className="mt-8 text-center">
-      <button className="text-sm font-bold flex items-center gap-2 mx-auto hover:text-purple-400 transition-colors">
-        View Archive <span className="material-symbols-outlined text-sm">arrow_forward</span>
-      </button>
     </div>
   </section>
 );

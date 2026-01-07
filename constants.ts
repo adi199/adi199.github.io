@@ -49,7 +49,7 @@ export const EXPERIENCE: ExperienceItem[] = [
 
 export const PROJECTS: ProjectItem[] = [
   {
-    title: "AI Book Recommendation System",
+    title: "AI Book Recommendation System", 
     description: "System leverages word embeddings for semantic understanding, Retrieval-Augmented Generation (RAG) to combine knowledge retrieval with generative models, and vector search algorithms like FAISS for efficient similarity matching, enabling precise, context-aware personalized recommendation",
     image: "https://picsum.photos/seed/analytics/800/400",
     tags: ["Python", "RAG", "AI"]
@@ -62,15 +62,24 @@ export const PROJECTS: ProjectItem[] = [
   },
   {
     title: "Java-Based Database Management System",
+    githubUrl: "https://github.com/adi199/Java-Based-Database-Management-System",
     description: "Designed a high-performance database management system (RDBMS) from the ground up using Java. Incorporated optimized data structures such as B+ Trees to enhance data storage, manipulation, and retrieval processes. Achieved a 15% improvement in query performance and reduced disk reads by 30%, demonstrating significant efficiency gains",
     image: "https://picsum.photos/seed/gateway/800/400",
     tags: ["Java", "Algorithms"]
   },
   {
     title: "Pose correction Trainer",
+    githubUrl: "https://github.com/adi199/pose-correction",
     description: "Programmed a Python application to identify and track body joints with minimum 50% confidence by utilizing MediaPipe.Effectively identified and categorized inaccurate poses with an 96% precision, using KNN model",
     image: "https://picsum.photos/seed/gateway/800/400",
     tags: ["Python", "Computer Vision", "KNN"]
+  },
+  {
+    title: "Chat Forever",
+    githubUrl: "https://github.com/adi199/ChatForever",
+    description: "Developed a real-time chat application using React, Node.js, and Socket.io. Implemented features like user authentication, group chats, and message persistence with MongoDB. Ensured secure communication through JWT tokens and encrypted data transmission.",
+    image: "https://picsum.photos/seed/gateway/800/400",
+    tags: ["React", "Node.js", "Socket.io", "MongoDB"]
   }
 ];
 

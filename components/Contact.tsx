@@ -1,8 +1,8 @@
 import React from 'react';
 
 const SOCIALS = [
-  { name: 'GitHub', slug: 'github', url: '#', brandColor: '#ffffff' },
-  { name: 'LinkedIn', slug: 'linkedin', url: '#', brandColor: '#0A66C2' }
+  { name: 'GitHub', slug: 'github', url: 'https://github.com/adi199', brandColor: '#ffffff' },
+  { name: 'LinkedIn', slug: 'linkedin', url: 'https://linkedin.com/in/aditya--singh', brandColor: '#0A66C2' }
 ];
 
 const Contact: React.FC = () => (
@@ -17,7 +17,7 @@ const Contact: React.FC = () => (
       
       <div className="pt-8 flex flex-col items-center gap-10">
         <a 
-          href="mailto:hello@example.com" 
+          href="mailto:adi.singh199@gmail.com" 
           className="group relative inline-flex items-center gap-3 px-10 py-4 bg-white text-black font-bold rounded-xl overflow-hidden hover:scale-105 transition-all duration-300"
         >
           <span className="relative z-10">Say Hello</span>
@@ -61,9 +61,8 @@ const Contact: React.FC = () => (
       </div>
 
       <div className="pt-16 border-t border-white/5 mt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] font-mono text-gray-600 uppercase tracking-widest">
-        <p>© 2024 Aditya Singh</p>
+        <p>© 2025 Aditya Singh</p>
         <p>Built with Precision & Passion</p>
-        <p>DEV SYSTEM v2.1</p>
       </div>
     </div>
     <div className="absolute inset-0 bg-gradient-to-t from-purple-500/5 via-transparent to-transparent pointer-events-none"></div>
